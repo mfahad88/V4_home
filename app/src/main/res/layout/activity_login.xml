@@ -1,0 +1,167 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <!-- Login progress -->
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/logo">
+
+        <requestFocus></requestFocus>
+    </ImageView>
+
+    <View
+        android:id="@+id/center_view"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true">
+
+    </View>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/center_view"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="-60dp"
+        android:padding="4dp">
+
+
+        <EditText
+            android:id="@+id/txt_MobileNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/bg_field"
+            android:drawableLeft="@drawable/mobile_icon"
+            android:drawablePadding="10dp"
+            android:text=""
+            android:ems="11"
+            android:hint="Mobile Number"
+            android:inputType="number"
+            android:maxLength="11"
+            android:paddingLeft="20dp"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/txt_Pin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_MobileNumber"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="-8dp"
+            android:background="@drawable/bg_field"
+            android:drawableLeft="@drawable/lock_icon"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Password"
+            android:text=""
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:paddingLeft="20dp"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/txt_MobileNumber"
+            android:layout_below="@id/txt_Pin"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_login" />
+
+        <Button
+            android:id="@+id/btn_Registr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/txt_MobileNumber"
+            android:layout_below="@id/txt_Pin"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_register_" />
+
+        <TextView
+            android:id="@+id/txt_ResetPin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/btn_Registr"
+            android:layout_below="@+id/btn_Login"
+            android:layout_marginLeft="5dp"
+            android:visibility="gone"
+            android:layout_marginTop="20dp"
+            android:text="Forgot Password ?"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txt_OR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_ResetPin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:text="OR"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/fake_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_ResetPin"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/txt_OR"
+            android:background="@drawable/btn_facebook"
+            android:visibility="gone"></Button>
+
+        <Button
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_ResetPin"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toLeftOf="@id/txt_OR"
+            android:background="@drawable/btn_gmail"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>

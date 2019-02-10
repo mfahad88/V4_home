@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/player_circle">
+
+        <ImageView
+            android:id="@+id/iv_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/iv_bat_orange" />
+
+        <ImageView
+            android:id="@+id/iv_tick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/iv_player"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/green_tick"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_playername"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_player"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="1dp"
+            android:textSize="11sp"
+            android:textColor="@color/lv_fix_row_title_color"
+            android:text="Mohammad sal Ahmed"
+            android:maxLines="1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_strikerate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_playername"
+            android:layout_marginTop="0dp"
+            android:textSize="10sp"
+            android:layout_centerHorizontal="true"
+            android:text="SR: 150.8" />
+
+        <TextView
+            android:id="@+id/tv_average"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_strikerate"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:text="Avg: 39.6"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_average"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:textSize="10sp"
+            android:drawableLeft="@drawable/coin_gray"
+            android:drawablePadding="3dp"
+            android:paddingLeft="3dp"
+            android:text="80000" />
+
+        <!--<ImageView
+            android:id="@+id/iv_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@android:drawable/ic_dialog_alert" />
+
+        <TextView
+            android:id="@+id/tv_playername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/iv_player"
+            android:text="Sarfaraz Ahmed"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_sr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_player"
+            android:layout_margin="5dp"
+            android:background="@android:drawable/presence_audio_online" />
+
+        <TextView
+            android:id="@+id/tv_strikerate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_player"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@id/iv_sr"
+            android:text="Strike rate: 150.8" />
+
+        <TextView
+            android:id="@+id/tv_average"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_strikerate"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@id/iv_sr"
+            android:text="Average: 39.6" />
+
+        <ImageView
+            android:id="@+id/iv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_average"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/presence_audio_busy" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_average"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/iv_price"
+            android:text="Price: 80000" />-->
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="-8dp"
+        android:layout_marginTop="-20dp"
+        android:background="@android:drawable/btn_dialog"
+        android:visibility="gone" />
+
+
+</LinearLayout>

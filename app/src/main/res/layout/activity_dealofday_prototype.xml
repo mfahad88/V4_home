@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="bottom">
+
+            <LinearLayout
+                android:id="@+id/layout000"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/item_bg_circle"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imgBooster"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="false"
+                    android:layout_centerInParent="true"
+                    app:srcCompat="@drawable/cap" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtremain"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/layout000"
+                android:layout_marginLeft="-30dp"
+                android:background="@drawable/inventory_num_bg"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtBoosterName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="textCapWords"
+            android:text="Text view"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="bottom">
+
+            <LinearLayout
+                android:id="@+id/layout0001"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/item_bg_circle"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imgBooster2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="false"
+                    android:layout_centerInParent="true"
+                    app:srcCompat="@drawable/cap" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtremain2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/layout000"
+                android:layout_marginLeft="-30dp"
+                android:layout_weight="1"
+                android:background="@drawable/inventory_num_bg"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtBoosterName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="bottom"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/txtremain3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/layout000"
+                android:layout_marginLeft="-30dp"
+                android:layout_weight="1"
+                android:background="@drawable/inventory_num_bg"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

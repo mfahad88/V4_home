@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_about"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/faq_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="60dp">
+
+        <LinearLayout
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <LinearLayout
+                android:id="@+id/about_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/lv_fix_row_title_color"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30dp"
+                    android:text="About"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/about_inner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/question_one"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="	What is Apni Cricket league (ACL)?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_two"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  Are there any charges for using the ACL\n app?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_three"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="	Is this service safe to use?"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/registeration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/lv_fix_row_title_color"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30dp"
+                    android:text="Registeration"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/registeration_inner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/question_four"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  How do I register?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_five"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  What if I don’t have a valid email address?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_six"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  From where can I download the app?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_seven"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  What kind of device versions are\n  compatible to download the app?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_eight"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  What if I forget my password?"
+                        android:textStyle="bold" />
+
+                   <!-- <TextView
+                        android:id="@+id/question_nine"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  From where can I download the app?"
+                        android:textStyle="bold" />-->
+
+                    <TextView
+                        android:id="@+id/question_nine"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  Is it necessary for me to open a JS wallet\n  account in order to play the fantasy\n  league?"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/question_ten"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  How many accounts can I create using the\n same email id on the app?"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wallet_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/lv_fix_row_title_color"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30dp"
+                    android:text="Wallet account balance &amp; registeration"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/wallet_account_inner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/question_eleven"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  What is a wallet account?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_twelve"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  How can I add money to my JS wallet\n  account?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_thirteen"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  How long does it take for my deposited\n  money to be credited in my wallet\n  account?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_fourteen"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  Can I withdraw money from my wallet\n  account?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_fifteen"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  How can I check my wallet account\n  balance?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_sixteen"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  What are the daily limits for the wallet?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_seventeen"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text=" Do I receive a debit card for my wallet\n account?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_eighteen"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text=" What kind of transactions can I perform\n  through the app?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_ninteen"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text=" How do I get a notification for a\n successful transaction?"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/playing_game"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/lv_fix_row_title_color"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30dp"
+                    android:text="Playing the game"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/wallet_account_inner_"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/question_twenty"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  How do I play?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_twentyone"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  What is my initial budget to create a team?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_twentytwo"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  How do I create my team?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_twentythree"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  How many players are needed to create a\n  team?"
+                        android:textStyle="bold" />
+
+                  <!--  <TextView
+                        android:id="@+id/question_twentyfour"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  How can I check my wallet account\n  balance?"
+                        android:textStyle="bold" />-->
+
+                    <TextView
+                        android:id="@+id/question_twentyfive"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  How many teams can I create?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_twentysix"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  Do I require an internet connection to play?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_twentyseven"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  How do I make in-app purchases?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_twentyeight"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  What items are available for me to\n purchase within the app?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_twentynine"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  What if one of my chosen players does\n not play in the round?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_thirty"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  Can I change my current team players\n with others available in the league?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_thirtyone"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  When I make changes to my team, how\n long does it take to reflect?"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/lv_fix_row_title_color"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30dp"
+                    android:text="Scores &amp; Points"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/scores_inner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/question_thirtytwo_one"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  How will I score points? "
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_thirtytwo"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  What is a booster? "
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_thirtythree"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  How are my points calculated?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_thirtyfour"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  How can I redeem my booster points?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_thirtyfive"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  When do the points get updated?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_thirtysix"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  How can I cross check my points?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_thirtyseven"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  How much minimum balance do I need\n  to maintain in order to acquire for a\n  super booster?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_thirtyeight"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  How does ‘request a booster’ work?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_thirtynine"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  Will I get any extra points for\n  Man of the Match?"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/prizes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/lv_fix_row_title_color"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30dp"
+                    android:text="Prizes"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/about_inner_tw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/question_fourty"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="	How is the winner of the match decided?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_fourtyone"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  How will I be informed if I win a prize?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_fourtytwo"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  How to deposit cash?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_fourtythree"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="  What is the crieteria for winning?"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/question_fourtyfour"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/faq_field"
+                        android:drawableLeft="@drawable/small_qmark"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="	If I face any issue, how do I get in\n  touch with the technical support\n  team?"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bg_faqs"
+        android:paddingBottom="20dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="40dp"
+        android:textSize="10sp"
+        android:visibility="gone" />
+
+
+</LinearLayout>

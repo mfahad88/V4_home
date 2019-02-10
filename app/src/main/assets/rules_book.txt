@@ -1,0 +1,24 @@
+At the end of each match, performance of all the 22 players will be obtained and points will be calculated for the user’s team on the basis of following rule book:
+
+1.	Scoring 1 run = +1 point
+2.	Scoring a 50 = +50 points
+3.	Scoring a 100 = +100 points
+4.	On Batting Strike Rate Less than 100 = -20 points
+5.	On Batting Strike Rate between 100 to 150 = +20 points
+6.	On Batting Strike Rate between 150.01 to 200 = +40 points
+7.	On Batting Strike Rate above 200.01 = +60 points
+8.	Scoring a Duck = -10 points
+9.	Scoring a Golden Duck = -20 points
+10.	On taking a catch = +10 points
+11.	Wicketkeeper’s 1 stump = +20 points
+12.	Bowler Getting a wicket = +40 points
+13.	Bowler Getting a Four wicket haul = +150 points
+14.	Bowler Getting a Five Wicket Haul = +200 points
+15.	Bowler’s Bowling economy less than or equal to 6 = +40 points
+16.	Bowler’s Bowling economy greater than 6 and less than or 	equal to 7 	= 20 points
+17.	Bowler’s Bowling economy greater than or equal to 8 and less 	than 	or equal to 9 = -20 points
+18.	Bowler’s Bowling economy greater than 9 = -40 points
+19.	Bowler getting a hat-trick = +300 points
+20.	Bowling a maiden over = +50 points
+21.	Captain x2 points (Captain’s attained points are doubled)
+22.	If Your Selected Player is awarded Man of the Match, then You 	get 3x points for him.

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FEB415</color>
+    <color name="colorPrimaryDark">#FEB415</color>
+    <color name="colorAccent">#f87a03</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="white_trans">#99FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="ufone_color">#EF7C21</color>
+    <color name="lv_fix_row_title_color">#8D64Ba</color>
+    <color name="player_field_text_color">#FD9747</color>
+</resources>

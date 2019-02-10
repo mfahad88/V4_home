@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_fixtures">
+
+    <View
+        android:id="@+id/top_dummy"
+        android:layout_width="2dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+    </View>
+
+    <RadioGroup
+        android:id="@+id/rg_leaderboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+
+    <RadioButton
+        android:id="@+id/rb_today"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/white"
+        android:text="Today"
+        android:button="@drawable/checkbox_background"
+        android:checked="true"
+        android:visibility="visible"/>
+
+    <RadioButton
+        android:id="@+id/rb_overall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overall"
+        android:textColor="@color/white"
+        android:button="@drawable/checkbox_background"
+        android:visibility="visible"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_dummy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/helmet_layout"
+        android:layout_centerInParent="true"
+        android:text="Top Players - All sadadadasdadadasdasd"
+        android:textColor="@color/white"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tv_top_players"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_dummy"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:text="Top Players - All Catagories"
+        android:textColor="@color/lv_fix_row_title_color" />
+
+    <RelativeLayout
+        android:id="@+id/helmet_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="269dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/leaderboar_layout"
+        android:layout_below="@+id/top_dummy"
+        android:layout_centerHorizontal="true">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_norecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:text="No Record Found"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/lv_fix_row_title_color"/>
+
+
+        <ScrollView
+            android:id="@+id/lv_top_ten_leaderboard"
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:layout_centerHorizontal="true"
+            android:visibility="visible"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="5dp">
+
+            <LinearLayout
+                android:id="@+id/leader_par_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="260dp"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollview"
+        style="@style/scrollbar_shape_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_top_players"
+        android:layout_marginTop="3dp"
+        android:paddingBottom="10dp"
+        android:scrollbarThumbHorizontal="@drawable/scroll_bar"
+        android:scrollbarTrackHorizontal="@drawable/scroll_track"
+        android:scrollbarFadeDuration="1000"
+        android:scrollbarSize="10dp"
+        android:scrollbars="horizontal">
+
+        <LinearLayout
+            android:id="@+id/casts_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" />
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/horizontalScrollview"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Date"
+            android:textColor="@color/lv_fix_row_title_color"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Teams"
+            android:textColor="@color/lv_fix_row_title_color"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Venue"
+            android:textColor="@color/lv_fix_row_title_color"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_fixtures"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_layout"
+        android:layout_alignRight="@id/helmet_layout"
+        android:layout_alignLeft="@id/helmet_layout"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="5dp"
+        android:divider="@null"
+        android:dividerHeight="0dp">
+
+    </ListView>
+
+</RelativeLayout>

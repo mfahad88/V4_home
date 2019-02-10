@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="245dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_close" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_bg"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:id="@+id/transfer_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/transfer_icon" />
+
+
+        <TextView
+            android:id="@+id/tv_player_name_remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/transfer_icon"
+            android:layout_centerHorizontal="true"
+            android:text=""
+            android:textColor="#2A84DA"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_player_name_remove"
+            android:layout_centerHorizontal="true"
+            android:text="will be removed"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:layout_marginTop="-2dp"/>
+
+
+
+
+        <View
+            android:id="@+id/center_view"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"></View>
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/text_two"
+            android:layout_toRightOf="@id/center_view"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="5dp"
+            android:text="Ok"
+            android:textSize="11sp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_bg_small"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/text_two"
+            android:layout_toLeftOf="@id/center_view"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="3dp"
+            android:text="Cancel"
+            android:textSize="11sp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_bg_small"
+            android:layout_marginTop="10dp"/>
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:layout_below="@id/btn_ok"
+            android:background="@color/colorAccent"
+            android:visibility="invisible"></View>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

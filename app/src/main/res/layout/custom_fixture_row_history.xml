@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="0dp"
+    android:layout_centerHorizontal="true">
+
+
+    <LinearLayout
+        android:id="@+id/row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:text="22-Feb-2018"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_match"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.30"
+            android:gravity="center"
+            android:text="Peshawar vs Multan"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_venue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.7"
+            android:gravity="center|left"
+            android:paddingLeft="13dp"
+            android:text="Dubai"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+    <!--  &lt;!&ndash;  ListRow Left sied Thumbnail image &ndash;&gt;
+      <LinearLayout android:id="@+id/thumbnail"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:padding="3dip"
+          android:layout_alignParentLeft="true"
+          android:background="@drawable/image_bg"
+          android:layout_marginRight="5dip">
+
+          <ImageView
+              android:id="@+id/list_image"
+              android:layout_width="50dip"
+              android:layout_height="50dip"
+              android:src="@drawable/vs"/>
+
+      </LinearLayout>
+
+      &lt;!&ndash; Title Of Song&ndash;&gt;
+      <TextView
+          android:id="@+id/title"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignTop="@+id/thumbnail"
+          android:layout_toRightOf="@+id/thumbnail"
+          android:text="Multan Sultan vs Peshawar Zalmi"
+          android:textColor="#040404"
+          android:typeface="sans"
+          android:textSize="15dip"
+          android:textStyle="bold"/>
+
+      &lt;!&ndash; Artist Name &ndash;&gt;
+      <TextView
+          android:id="@+id/artist"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/title"
+          android:textColor="#343434"
+          android:textSize="10dip"
+          android:layout_marginTop="1dip"
+          android:layout_toRightOf="@+id/thumbnail"
+          android:text="22 Feb, 2018 Friday" />
+
+      &lt;!&ndash; Rightend Duration &ndash;&gt;
+      <TextView
+          android:id="@+id/duration"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_alignTop="@id/title"
+          android:gravity="right"
+          android:text="09:00 PM"
+          android:layout_marginRight="5dip"
+          android:textSize="10dip"
+          android:textColor="#10bcc9"
+          android:textStyle="bold"/>
+
+      &lt;!&ndash; Rightend Arrow &ndash;&gt;
+      <ImageView android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/ic_media_play_light"
+          android:layout_alignParentRight="true"
+          android:layout_centerVertical="true"/>-->
+
+</RelativeLayout>

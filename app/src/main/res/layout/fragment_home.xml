@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_fixtures">
+
+
+    <RelativeLayout
+        android:id="@+id/helmet_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <com.psl.fantasy.league.season2.RoundedImageView
+            android:id="@+id/ivUserImage"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/profile_circle" />
+
+        <TextView
+            android:id="@+id/user_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivUserImage"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="erewrewr"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/header_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/top_bg"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:weightSum="2"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/star_field"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_weight="1.7"
+                    android:drawableLeft="@drawable/rank_icon_new"
+                    android:gravity="left"
+                    android:text="1234"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/coin_field"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|bottom"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.3"
+                    android:drawableLeft="@drawable/poits_icon_new"
+                    android:gravity="left"
+                    android:text=""
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/helmet_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/welcome" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/welcome"
+            android:layout_marginTop="-50dp"
+            android:background="@drawable/helmet_with_circle" />
+
+
+        <View
+            android:id="@+id/dummy_two"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"></View>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="-60dp"
+            android:layout_toRightOf="@id/dummy_two"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/user_field_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/buil_user_field"
+
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/star_field_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-2dp"
+                android:background="@drawable/build_star_field"
+                android:gravity="center"
+                android:text=""
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/coin_field_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/star_field_"
+                android:layout_alignRight="@id/star_field_"
+                android:layout_marginTop="-2dp"
+                android:background="@drawable/build_coin_field"
+                android:gravity="center"
+                android:text=""
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/build_team_slice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/build_team_field"
+        android:layout_below="@+id/helmet_layout">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="10dp"
+            android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/build_logo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/team_icon" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:maxLength="12"
+                android:textSize="16sp"
+                android:text="No Team" />
+
+            <ImageView
+            android:id="@+id/btn_create"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+            android:layout_weight="0.6"
+            android:background="@drawable/btn_build_team" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/build_team_slice"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Date"
+            android:textColor="@color/lv_fix_row_title_color"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Teams"
+            android:textColor="@color/lv_fix_row_title_color"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Venue"
+            android:textColor="@color/lv_fix_row_title_color"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_fixtures"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_layout"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignRight="@id/build_team_slice"
+        android:layout_alignLeft="@id/build_team_slice"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:divider="@null"
+        android:dividerHeight="0dp">
+
+    </ListView>
+
+</RelativeLayout>

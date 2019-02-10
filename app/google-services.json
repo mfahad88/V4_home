@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "207632598668",
+    "firebase_url": "https://fir-psl-fantasy.firebaseio.com",
+    "project_id": "firebase-psl-fantasy",
+    "storage_bucket": "firebase-psl-fantasy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207632598668:android:a738ee74a17442af",
+        "android_client_info": {
+          "package_name": "com.psl.fantasy.league"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207632598668-e429unk7ddkclt78et8fnc7adgab4n7o.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "207632598668-31bsa2fnntmci69o4fr6dqmh7vc2omn8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.psl.fantasy.league",
+            "certificate_hash": "06f01bbb005ab43b48a71d57f949ea8afa7c11d3"
+          }
+        },
+        {
+          "client_id": "207632598668-66g3a7tv5mm6tlnkbdaphhuqe1j5aif3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDesEemcrRDBi_rDGhefrmpe-PdgnojwRM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207632598668-e429unk7ddkclt78et8fnc7adgab4n7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

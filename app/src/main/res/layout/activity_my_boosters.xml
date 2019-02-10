@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="60dp"
+    android:background="@drawable/bg_fixtures"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/helmet_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp">
+
+                    <com.psl.fantasy.league.season2.RoundedImageView
+                        android:id="@+id/ivUserImage"
+                        android:layout_width="82dp"
+                        android:layout_height="82dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/profile_circle" />
+
+                    <TextView
+                        android:id="@+id/user_field"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ivUserImage"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:text="erewrewr"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:id="@+id/header_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/top_bg"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="bottom"
+                            android:weightSum="2">
+
+                            <TextView
+                                android:id="@+id/star_field"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1.7"
+                                android:drawableLeft="@drawable/rank_icon_new"
+                                android:gravity="left"
+                                android:text=""
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/coin_field"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end|bottom"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_weight="0.3"
+                                android:drawableLeft="@drawable/poits_icon_new"
+                                android:gravity="left"
+                                android:text=""
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/formation_header"
+                        android:fontFamily="@font/montserratblack"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Boosters"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:translationZ="1dp"
+                        android:visibility="visible" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="false"
+                        android:layout_below="@+id/textView11"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="-20dp"
+                        android:background="@drawable/round_corner_bg_new"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="30dp"
+                            android:gravity="left"
+                            android:text="Normal Booster will be awarded on Mobile Topup, QR Scan and Bill payment transactions whereas Super Booster will be awarded on maintaining minimum 2000 balance for a day"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/lv_fix_row_title_color"
+                            android:textSize="12sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:scrollIndicators="none"
+                            android:scrollbarAlwaysDrawHorizontalTrack="false"
+                            android:scrollbars="none">
+
+                            <LinearLayout
+                                android:id="@+id/layoutBooster"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:scrollIndicators="none">
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="342dp"
+    android:layout_height="380dp"
+    android:background="@drawable/bg_rule">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="342dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:editable="false"
+        android:focusable="false"
+        android:paddingLeft="5dp"
+        android:maxLines = "2500"
+        android:paddingRight="5dp"
+        android:scrollbars="vertical" />
+
+
+</RelativeLayout>

@@ -1,0 +1,125 @@
+1.	What is Apni Cricket league (ACL)?
+	Apni Cricket league is an online cricket game where participants create virtual teams of real players and compete based on the performance of those real players in actual games.
+2.	Are there any charges for using the ACL app?
+	There are no charges of using the app.
+3.	Is this service safe to use?
+	Yes, the app provides a safe and secure way to carry out transactions:
+i.	No information is stored on your mobile phone which means your username and password are never exposed even if your mobile phone is lost or stolen
+ii.	All transactions are secured through advanced encryption methodologies
+
+>>REGISTRATION
+
+4.	How do I register?
+	Register yourself using your mobile number and creating a unique password. Complete your registration by filling out a short form or instantly signing in with your Facebook or Google ID.
+5.	What if I don't have a valid email address?
+	Simply register using your mobile number.
+6.	From where can I download the app?
+	The app can be downloaded from Google Play Store or App Store (Apple)
+7.	What kind of device versions are compatible to download the app?
+	Android 4.2 and above. iOS 6 and above
+8.	What if I forget my password?
+	Click on forget password, enter your mobile number, create a new password and provide the OTP sent on your registered mobile number.
+9.	Is it necessary for me to open a JS wallet account in order to play the fantasy league?
+	No, you can play without opening a wallet.
+10.	How many accounts can I create using the same email id on the app?
+	You can create one account per email id
+
+>>WALLET ACCOUNT BALANCE & TRANSACTIONS
+
+11.	What is a wallet account?
+	Wallet is a banking account maintained in JS Bank and its JCash agents.  It can be used for merchant transactions, transfer money to other wallet users and bank accounts, anytime, anywhere.
+12.	How can I add money to my JS wallet account?
+	You can deposit money through our more than 30,000 authorized JCash agents. Agent locator is available within the app. (hyperlink to agent locator)
+13.	How long does it take for my deposited money to be credited in my wallet account?
+	The deposited money will reflect in your wallet instantly
+14.	Can I withdraw money from my wallet account?
+	Yes, you can withdraw money through the JCash agents by providing your mobile phone number
+15.	How can I check my wallet account balance?
+	Wallet balance can be checked through the balance inquiry feature by entering the OTP sent on your registered mobile number
+
+16.	What are the daily limits for the wallet?
+	Daily transaction limit for the Level 1 account is Rs. 50,000
+17.	Do I receive a debit card for my wallet account?
+No
+18.	What kind of transactions can I perform through the app?
+	You can perform the following transactions through your wallet:
+i.	Balance inquiry
+ii.	Bill payment
+iii.	Mobile Top-up
+iv.	Retail purchase thru MasterPass QR
+v.	In-app purchases
+
+19.	How do I get a notification for a successful transaction?
+	You will get a SMS after every transaction
+
+>>PLAYING THE GAME
+
+20.	How do I play?
+	Follow these simple steps to play on ACL App:
+i.	Register/ Log into your account
+ii.	Click on create team
+iii.	Create your team of 11 players within the allocated budget of 100,000 points
+iv.	Make in-app purchases in order to multiply your points and increase the chances of winning (for wallet account holders only)
+v.	Once the live match starts, your team starts earning points based on actual performances of the players selected by you. Final points, ranks and winners are declared after the end of the match
+21.	What is my initial budget to create a team?
+You 	will get 100,000 points as an in-app budget for funding purchases of team players
+22.	How do I create my team?
+	After logging in, click on create team and select 11 players of your choice.
+23.	How many players are needed to create a team?
+11 	players are required to create a team. There are two formations and one of them needs to be selected
+24.	How many teams can I create?
+	You can create only one team
+25.	Do I require an internet connection to play?
+	Yes, you require a stable broadband, 3G/4G internet connection to play
+26.	How do I make in-app purchases?
+	You are required to open a Wallet account, in order to buy inventory for your team 
+27.	What items are available for me to purchase within the app?
+*	Purple Cap: can be assigned to the bowler which will double the  points
+*	Orange Cap: can be assigned to the batsman which will double the points
+*	Golden Gloves: can be assigned to the wicketkeeper which will double the points
+*	Safety Cap: can be purchased to protect a player wherein no negative scoring will be applied
+*	Team Safety: can be purchased to protect your team from negative scoring
+*	Players Transfer/ Swapping: can be used to change current players with others available in the league
+*	Man of the Match: will triple (x3) the points for the selected player
+*	Icon Player: assigned player will earn triple (x3) points
+*	Deal of the Day: look out for special combinations on daily basis
+
+28.	What if one of my chosen players does not play in the round?
+	Choose your team carefully! Any player chosen by you who does not feature in the round does not get any points.
+
+29.	Can I change my current team players with others available in the league?
+	Yes, you can edit your team prior to the start of the match
+30.	When I make changes to my team, how long does it take to reflect?
+	Once you make changes to your team, the changes are updated immediately
+
+
+>>SCORES & POINTS
+
+30.	How will I score points?
+	You will score points depending on how the players in your team perform in the live match
+31.	What is a booster? 
+	Boosters are points that will be awarded whenever you perform any wallet based transactions.
+32.	How are my points calculated?
+	Points are calculated depending on how your chosen player performs in the actual match. These could be multiplied using boosters or making in-app purchases.
+33.	How can I redeem my booster points?
+	You can redeem your booster points by clicking on the booster feature available below the app
+34.	When do the points get updated?
+	The points get updated immediately. 
+35.	How can I cross check my points?
+	You can cross check your points through your dashboard
+36.	How much minimum balance do I need to maintain in order to acquire for a super booster?
+	The minimum balance required to acquire for a super booster is Rs. 2000
+37.	How does "request a booster" work?
+	You can send a "Request a booster" request to a friend. Request will be received in the inbox. Once the request is acknowledged by your friend, a booster will be transferred to your account.
+38.	 Will I get any extra points for Man of the Match?
+	Yes, if your selected player is awarded Man of the Match, you will get (x3 times) the points of the player
+	PRIZES
+39.	How is the winner of the match decided?
+	The winner is decided based on the highest points calculated at the end of a match. Top players will receive special prizes. Refer to the prize section for the prize details.
+40.	How will I be informed if I win a prize?
+	You will receive an in-app notification and announcement on GEO Super Eye show will be done at the end of a match.
+
+>>CONTACT US
+
+41.	If I face any issue, how do I get in touch with the technical support team?
+	Please go to Contact Us page, and share your complains or queries with us. Our customer service team shall respond to your query within 48 hours.

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_fixtures"
+    android:layout_marginBottom="60dp">
+
+    <View
+        android:id="@+id/app_icon"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:id="@+id/mainlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <com.psl.fantasy.league.season2.RoundedImageView
+                android:id="@+id/ivUserImage"
+                android:layout_width="92dp"
+                android:layout_height="92dp"
+                android:layout_below="@+id/btnSelectPic"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/profile_circle">
+
+            </com.psl.fantasy.league.season2.RoundedImageView>
+
+
+            <EditText
+                android:id="@+id/txt_firstname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_field"
+                android:digits="@string/name_digits"
+                android:hint="First Name"
+                android:inputType="textPersonName"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:paddingLeft="20dp"
+                android:textSize="13sp">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/txt_lastname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-8dp"
+                android:background="@drawable/bg_field"
+                android:clickable="false"
+                android:hint="Last Name"
+                android:inputType="textPersonName"
+                android:maxLength="30"
+                android:paddingLeft="20dp"
+                android:textSize="13sp" />
+
+
+            <EditText
+                android:id="@+id/txt_mobilenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-8dp"
+                android:background="@drawable/bg_field"
+                android:ems="11"
+                android:hint="Mobile Number"
+                android:inputType="none"
+                android:focusable="false"
+                android:clickable="false"
+                android:maxLength="11"
+                android:maxLines="1"
+                android:paddingLeft="20dp"
+                android:textSize="13sp" />
+
+
+            <EditText
+                android:id="@+id/txt_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-8dp"
+                android:background="@drawable/bg_field"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:paddingLeft="20dp"
+                android:textSize="13sp" />
+
+
+            <RelativeLayout
+                android:id="@+id/dummy_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-8dp"
+                android:visibility="gone">
+
+                <Space
+                    android:id="@+id/dummy"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_centerHorizontal="true"
+                    android:visibility="invisible" />
+
+                <Spinner
+                    android:id="@+id/spinner_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/dummy"
+                    android:background="@drawable/small_field"
+                    android:entries="@array/gender"
+                    android:paddingLeft="20dp"
+                    android:prompt="@string/gender_prompt"
+                    android:visibility="visible"></Spinner>
+
+                <Spinner
+                    android:id="@+id/spinner_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/dummy"
+                    android:background="@drawable/small_field"
+                    android:entries="@array/age"
+                    android:paddingLeft="20dp"
+                    android:prompt="@string/age_prompt"
+                    android:visibility="visible"></Spinner>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/iv_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_small"
+                android:gravity="center"
+                android:text="Save"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

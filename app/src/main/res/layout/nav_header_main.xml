@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="30dp"
+    android:layout_marginTop="30dp"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:id="@+id/layoutUserProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <com.psl.fantasy.league.season2.RoundedImageView
+            android:id="@+id/imgUserPic"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            android:src="@drawable/com_facebook_profile_picture_blank_square"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/txtUserFullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Aamir Shehzad"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxEms="20"
+            android:singleLine="true"
+            android:text="aamir.shehzad190@gmail.com"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="0.5"
+            android:fitsSystemWindows="false"
+            android:overScrollMode="never"
+            app:menu="@menu/activity_main_drawer"
+            app:theme="@style/ThemeOverlay.AppCompat.Light" />
+    </LinearLayout>
+</LinearLayout>

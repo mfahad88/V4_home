@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/nav_Inventory"
+        android:icon="@drawable/ic_menu_manage"
+        android:orderInCategory="5"
+        android:title="Inventory" />
+    <item
+        android:orderInCategory="4"
+        android:id="@+id/nav_assign_inventroy"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Assign Inventory" />
+    <item
+        android:orderInCategory="1"
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Home" />
+
+    <item
+        android:orderInCategory="2"
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="Profile" />
+
+    <item
+        android:orderInCategory="3"
+        android:id="@+id/nav_Rules"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Rules" />
+
+    <item
+        android:orderInCategory="4"
+        android:id="@+id/nav_Team"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Team" />
+
+    <item
+        android:id="@+id/nav_editTeam"
+        android:icon="@drawable/ic_menu_manage"
+        android:orderInCategory="5"
+        android:title="Edit Team" />
+
+    <item
+        android:id="@+id/nav_leaderboard"
+        android:icon="@drawable/ic_menu_manage"
+        android:orderInCategory="6"
+        android:title="Leaderboard" />
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_menu_manage"
+        android:orderInCategory="7"
+        android:title="Dashboard" />
+
+
+    <item
+        android:id="@+id/nav_Boosters"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="My Boosters"
+        android:orderInCategory="8" />
+
+    <item
+        android:orderInCategory="6"
+        android:id="@+id/nav_Leagues"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Leagues" />
+
+    <item
+        android:orderInCategory="7"
+        android:id="@+id/nav_Shop"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Shop" />
+
+    <item
+        android:orderInCategory="8"
+        android:id="@+id/nav_Wallet"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Wallet" />
+
+    <item
+        android:orderInCategory="9"
+        android:id="@+id/nav_agent_locator"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Agent Locator" />
+
+    <item
+        android:orderInCategory="10"
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Settings" />
+
+    <item
+        android:orderInCategory="11"
+        android:id="@+id/nav_about"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="About" />
+
+    <item
+        android:orderInCategory="12"
+        android:id="@+id/logOut"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="LogOut" />
+
+</menu>

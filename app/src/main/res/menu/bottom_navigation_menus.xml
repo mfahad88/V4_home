@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_team"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        android:title="Team"
+        android:showAsAction="always|withText"/>
+    <item
+        android:id="@+id/tab_boosters"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="Boosters"
+        android:showAsAction="always|withText"/>
+    <item
+        android:id="@+id/tab_shop"
+        android:icon="@drawable/ic_assignment_ind_black_24dp"
+        android:title="Shop"
+        android:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/tab_wallet"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        android:title="Wallet"
+        android:showAsAction="always|withText"/>
+    <item
+        android:id="@+id/tab_agent_locator"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="Agent Locator"
+        android:showAsAction="always|withText"/>
+</menu>

@@ -1,0 +1,154 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="60dp"
+    android:background="@drawable/bg_dashboard">
+
+
+
+    <View
+        android:id="@+id/transparent_view"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="110dp"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/roun_corners_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/transparent_view"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="0dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="12dp"
+        android:layout_marginBottom="10dp">
+
+        <!--<com.google.android.gms.maps.MapView
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"/>-->
+
+        <fragment
+            android:id="@+id/map"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"/>
+
+        </android.support.v7.widget.CardView>
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/roun_corners_layout"
+        android:background="@drawable/map_top_bar">
+
+        <View
+            android:id="@+id/transparent_view_1"
+            android:layout_width="180dp"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true"/>
+        <ProgressBar
+            android:id="@+id/locator_progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/transparent_view_1"/>
+
+        <ImageView
+            android:id="@+id/spinner_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/transparent_view_1"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_find_agents"
+            android:textColor="@color/white"
+            android:layout_marginRight="5dp"/>
+
+        <ImageView
+            android:id="@+id/iv_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/map_user_icon" />
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/iv_user"
+            android:text="dsfsdfsdf"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_nearest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_username"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@id/iv_user"
+            android:text="Nearest  - 5 Kms"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+ <!--   <FrameLayout
+        android:id="@+id/roun_corners_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top_layout"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="-5dp">
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner_bg"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+    </FrameLayout>-->
+
+
+    <!--<RelativeLayout
+        android:id="@+id/roun_corners_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_layout"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="-5dp"
+        android:background="@drawable/round_corner_bg">
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"/>
+
+    </RelativeLayout>-->
+
+
+
+</RelativeLayout>
